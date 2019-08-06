@@ -32,15 +32,36 @@
  
  ▶ [팝업] `[INS-13001]환경이 최소 요구 사항을 충족하지 않습니다 계속하겠습니까?` ▶ **예(Y)**
 
- > 12. [필요 조건 검사] ▶ 
+ > 12. [필요 조건 검사] skip...
  
- > 13. [요약] ▶ 완료(F)
+ > 13. [요약] ▶ **완료(F)**
 
  >  14. [제품 설치] ▶ 
+
   ![install dataabse](./img/oraclewebsite2.PNG)
 
- >  15. [완료] ▶ 
+ [팝업] Database Configuration Assistant
 
- >  16. [] ▶ 
+ >  15. `scott`, `sh` 계정 설정
+ 
+ >  16. [완료]
 
- >  17. [] ▶ 
+```command
+Microsoft Windows [Version 10.0.18362.267]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\ ... >SQLPLUS
+
+SQL*Plus: Release 11.2.0.1.0 Production on 월 8월 5 13:56:29 2019
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+사용자명 입력: system
+비밀번호 입력: !@#$!@#!
+
+다음에 접속됨:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL>
+```
